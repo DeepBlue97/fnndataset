@@ -7,6 +7,8 @@ from pycocotools.coco import COCO
 
 from fnndataset import *
 from fnndataset.coco.det import CocoDataset as CocoDatasetDet
+from fnndataset.coco.det import ListDataset as CocoDetListDataset
+from fnndataset.coco.keypoint import TensorDataset as CocoKeypointDataset
 
 
 __all__ = [
@@ -15,4 +17,6 @@ __all__ = [
     'Dataset',
     'COCO',
     'CocoDatasetDet',
+    'CocoDetListDataset',
+    'CocoKeypointDataset',
 ]
