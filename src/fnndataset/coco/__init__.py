@@ -9,6 +9,7 @@ from fnndataset import *
 from fnndataset.coco.det import CocoDataset as CocoDatasetDet
 from fnndataset.coco.det import ListDataset as CocoDetListDataset
 from fnndataset.coco.keypoint import TensorDataset as CocoKeypointDataset
+from fnndataset.coco.keypoint import TensorDatasetTest as CocoKeypointTestDataset
 
 
 __all__ = [
@@ -19,4 +20,5 @@ __all__ = [
     'CocoDatasetDet',
     'CocoDetListDataset',
     'CocoKeypointDataset',
+    'CocoKeypointTestDataset',
 ]
