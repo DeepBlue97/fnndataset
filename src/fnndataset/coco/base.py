@@ -241,3 +241,4 @@ class CacheDataset(Dataset, metaclass=ABCMeta):
             cache_bytes += img.nbytes
         mem_required = cache_bytes * num_imgs / num_samples
         return mem_required
+    
